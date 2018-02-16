@@ -1,0 +1,2 @@
+i=(input())
+len(i)
