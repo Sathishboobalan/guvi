@@ -4,7 +4,7 @@ def chec(n):
     begin=int(input("Enter the starting number"))
     end=int(input("Enter the ending number"))
     for i in range(begin,end):
-        if (n>=begin and n<=end):
+        if (n>begin and n<end):
             flag=1
     if flag==1:
         print("yes")
